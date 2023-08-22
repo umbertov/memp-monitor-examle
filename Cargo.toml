@@ -1,0 +1,12 @@
+[package]
+name = "mempool_stuff"
+version = "0.1.0"
+edition = "2021"
+default-run = "mempool_stuff"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ethers = { version = "2.0.8", features = ["ws"] }
+eyre = "0.6.8"
+tokio = { version = "1.32.0", features = ["full"] }
